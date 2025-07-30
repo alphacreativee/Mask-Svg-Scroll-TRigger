@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     pin: true,
     pinSpacing: true,
     scrub: 1,
-    markers: true,
+    // markers: true,
     onUpdate: (self) => {
       const progress = self.progress;
       if (progress <= 0.5) {
